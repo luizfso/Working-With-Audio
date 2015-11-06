@@ -12,6 +12,8 @@
 		161577641BDD35A4003B102A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 161577621BDD35A4003B102A /* Main.storyboard */; };
 		161577661BDD35A4003B102A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 161577651BDD35A4003B102A /* Assets.xcassets */; };
 		161577691BDD35A4003B102A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 161577671BDD35A4003B102A /* LaunchScreen.storyboard */; };
+		161577711BDD3642003B102A /* bach.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 161577701BDD3642003B102A /* bach.mp3 */; settings = {ASSET_TAGS = (); }; };
+		161577991BDDA7A9003B102A /* JohannBach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 161577981BDDA7A9003B102A /* JohannBach.jpg */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		161577651BDD35A4003B102A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		161577681BDD35A4003B102A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1615776A1BDD35A4003B102A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		161577701BDD3642003B102A /* bach.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bach.mp3; sourceTree = "<group>"; };
+		161577981BDDA7A9003B102A /* JohannBach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JohannBach.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				1615775E1BDD35A4003B102A /* AppDelegate.swift */,
 				161577601BDD35A4003B102A /* ViewController.swift */,
+				161577701BDD3642003B102A /* bach.mp3 */,
+				161577981BDDA7A9003B102A /* JohannBach.jpg */,
 				161577621BDD35A4003B102A /* Main.storyboard */,
 				161577651BDD35A4003B102A /* Assets.xcassets */,
 				161577671BDD35A4003B102A /* LaunchScreen.storyboard */,
@@ -121,9 +127,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				161577711BDD3642003B102A /* bach.mp3 in Resources */,
 				161577691BDD35A4003B102A /* LaunchScreen.storyboard in Resources */,
 				161577661BDD35A4003B102A /* Assets.xcassets in Resources */,
 				161577641BDD35A4003B102A /* Main.storyboard in Resources */,
+				161577991BDDA7A9003B102A /* JohannBach.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +291,7 @@
 				1615776F1BDD35A4003B102A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
